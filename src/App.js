@@ -3,6 +3,7 @@ import Body from "./Components/Body";
 import { Provider } from "react-redux";
 import appStore from "./utils/appStore";
 import root from "./index"
+import "./App.css";
 function App() {
   console.log("Redux Store:", appStore);
 
